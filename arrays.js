@@ -11,7 +11,7 @@ array.unshift(element);
 }
 
 function addElementToEndOfArray (array, element) {
-  newArray = [array,...element]
+  newArray = [...array,element]
  return newArray
 }
 
